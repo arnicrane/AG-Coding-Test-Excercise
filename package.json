@@ -1,0 +1,38 @@
+{
+  "name": "acme-supermarket",
+  "version": "1.0.1",
+  "description": "ACME JavaScript Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config=testConfigs/jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ag-digital/acme-supermarket-test.git"
+  },
+  "jest": {
+    "projects": [
+      "testConfigs/jest.config.js"
+    ]
+  },
+  "keywords": [
+    "javascript",
+    "test"
+  ],
+  "author": "Arnold Samson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ag-digital/acme-supermarket-test/issues"
+  },
+  "homepage": "https://github.com/ag-digital/acme-supermarket-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/runtime": "^7.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "jest": "^24.9.0"
+  }
+}
